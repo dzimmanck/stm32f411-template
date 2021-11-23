@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<data_model name="data">
+  <declarations>
+    <declare c_name="numbers" c_type="Numbers"  tab_name="Some numbers" />
+  </declarations>
+  <defaults>
+      <default attrib="hide"                       value="false"/>
+      <default attrib="scaling"                    value="1"/>
+      <default attrib="q_value"                    value="0"/>
+      <default attrib="symbol"                     value=""/>
+      <default attrib="function_target_to_display" value="None"/>
+      <default attrib="function_display_to_target" value="None"/>
+      <default attrib="function"                   value="None"/>
+      <default attrib="help"                       value=""/>
+  </defaults>
+  <typedefs>
+    <typedef type_name="Numbers">
+      <variable c_name="meaning_of_life"      c_type="int32_t"  help="Life and everything" />
+      <variable c_name="age_of_the_universe"  c_type="int32_t"  help="Approximately" />
+    </typedef>
+  </typedefs>
+</data_model>

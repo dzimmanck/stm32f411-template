@@ -1,0 +1,19 @@
+{
+  "folders": [
+    {
+      "path": "."
+    }
+  ],
+  "settings": {
+    "LSP": {
+      "rls": {
+        "settings": {
+          "rust": {
+            "all_targets": false,
+            "target": "thumbv7em-none-eabihf"
+          }
+        }
+      }
+    }
+  }
+}
